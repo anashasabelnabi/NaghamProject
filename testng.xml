@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="product purchase suite">
+    <test name="Reservation" preserve-order="true">
+        <classes>
+
+            <class name="tests.HomeTest" />
+            <methods>
+                <include name="userCanEnterFromANDToPlace" />
+                <include name="userCanClickOnSearchBus"/>
+            </methods>
+
+            <class name="tests.SeatReservationTest" />
+            <methods>
+                <include name="userCanReserveASeat" />
+            </methods>
+
+        </classes>
+    </test>
+</suite>
